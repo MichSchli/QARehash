@@ -1,0 +1,3 @@
+dennis	born.in.1	born.in.2	amsterdam
+othercorp	invests.in.2	invests.in.1	emma,fay
+henry	meet.1	meet.2.inverse	fay

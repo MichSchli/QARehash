@@ -6,7 +6,7 @@ class ElementCache:
     map = None
 
     def __init__(self, path):
-        self.map = Cache(path)
+        self.map = Cache(path, size_limit=2 ** 42)
 
     def add(self, key, element):
         self.map[key] = element
@@ -22,6 +22,9 @@ class ElementCache:
 
     def count_elements(self):
         return len(self.map)
+
+    def update(self, key, element):
+        self.map[key] = element
 
     def index_keys(self, index):
         keys = list(self.map.iterkeys())
