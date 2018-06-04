@@ -118,8 +118,8 @@
       <file leaf-file-name="preprocess_graph.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/preprocess_graph.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -792,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/preprocess_graph.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
