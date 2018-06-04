@@ -18,8 +18,50 @@
       <file leaf-file-name="index_graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_indexing/index_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="329">
+              <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_relation_counter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_counter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_relation_filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build_graph_dicts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_building/build_graph_dicts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finalize_indexing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/finalize_indexing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -30,8 +72,8 @@
       <file leaf-file-name="element_cache.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/indexes/element_cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="434">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -39,23 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="element_index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indexes/element_index.py">
+      <file leaf-file-name="graph_type_handler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_type_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="449">
+              <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <marker date="1528124490644" expanded="true" signature="23:1080" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toy.graph" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/toy-125/toy.graph">
+      <file leaf-file-name="graph_name_handler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="123" column="22" lean-forward="true" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -64,50 +106,8 @@
       <file leaf-file-name="index_names.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_indexing/index_names.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_vertex_indexer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_vertex_indexer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_name_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_relation_indexer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_indexer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finalize_indexing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_indexing/finalize_indexing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="16" column="85" lean-forward="false" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -118,8 +118,8 @@
       <file leaf-file-name="preprocess_graph.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/preprocess_graph.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -142,7 +142,6 @@
         <option value="$PROJECT_DIR$/graph_indexing/graph_iterator.py" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_counter.py" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_printer.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_iterators/graph_file_iterator.py" />
         <option value="$PROJECT_DIR$/tools/to_turtle.py" />
         <option value="$PROJECT_DIR$/graph_indexing/indexes/default_index.py" />
@@ -151,15 +150,18 @@
         <option value="$PROJECT_DIR$/graph_indexing/index_vertices.py" />
         <option value="$PROJECT_DIR$/data/toy-125/toy.graph" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_vertex_indexer.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_type_handler.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py" />
         <option value="$PROJECT_DIR$/indexes/delayed_cache.py" />
-        <option value="$PROJECT_DIR$/indexes/element_cache.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/index_graph.py" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_indexer.py" />
         <option value="$PROJECT_DIR$/graph_indexing/finalize_indexing.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/index_names.py" />
         <option value="$PROJECT_DIR$/indexes/element_index.py" />
+        <option value="$PROJECT_DIR$/data/toy-125/toy.preprocessed.graph" />
+        <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py" />
+        <option value="$PROJECT_DIR$/indexes/element_cache.py" />
+        <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_type_handler.py" />
+        <option value="$PROJECT_DIR$/graph_building/build_graph_dicts.py" />
+        <option value="$PROJECT_DIR$/graph_indexing/index_names.py" />
+        <option value="$PROJECT_DIR$/graph_indexing/index_graph.py" />
+        <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py" />
         <option value="$PROJECT_DIR$/scripts/preprocess_graph.sh" />
       </list>
     </option>
@@ -249,11 +251,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="graph_indexing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="toy-125" />
+              <option name="myItemId" value="graph_iterators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCNQA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCNQA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph_indexing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph_indexing_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCNQA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCNQA3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph_building" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,13 +307,14 @@
       <recent name="$PROJECT_DIR$/graph_indexing/graph_file_iterators" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graph_building" />
+      <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/graph_indexing" />
       <recent name="$PROJECT_DIR$/indexes" />
       <recent name="$PROJECT_DIR$/graph_indexing/graph_indexing_components" />
-      <recent name="$PROJECT_DIR$/data/toy-125" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.index_graph">
+  <component name="RunManager" selected="Python.build_graph_dicts">
     <configuration default="false" name="index_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,6 +346,23 @@
       <module name="GCNQA3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index_names.py" />
       <option name="PARAMETERS" value="--graph $PROJECT_DIR$/data/toy-125/toy.graph --name_dictionary $PROJECT_DIR$/data/toy-125/names.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="build_graph_dicts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph_building" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GCNQA3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_building/build_graph_dicts.py" />
+      <option name="PARAMETERS" value="--graph $PROJECT_DIR$/data/toy-125/toy.preprocessed.graph --type_dictionary $PROJECT_DIR$/data/toy-125/cache/type_cache" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -459,14 +511,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.index_graph" />
       <item index="1" class="java.lang.String" itemvalue="Python.index_names" />
+      <item index="2" class="java.lang.String" itemvalue="Python.build_graph_dicts" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.index_graph" />
-        <item index="1" class="java.lang.String" itemvalue="Python.index_names" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.build_graph_dicts" />
+        <item index="1" class="java.lang.String" itemvalue="Python.index_graph" />
+        <item index="2" class="java.lang.String" itemvalue="Python.index_names" />
       </list>
     </recent_temporary>
   </component>
@@ -580,10 +634,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py">
+    <entry file="file://$PROJECT_DIR$/graph_indexing/index_vertices.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexes/delayed_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/preprocess_split_graph.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/toy-125/toy.preprocessed.graph">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="124" column="10" lean-forward="false" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_indexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/toy-125/toy.graph">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="22" lean-forward="false" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -596,10 +690,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/index_vertices.py">
+    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_vertex_indexer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexes/element_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexes/element_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -614,48 +736,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_type_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <marker date="1528124490644" expanded="true" signature="23:1080" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_building/build_graph_dicts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py">
+    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_vertex_indexer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexes/delayed_cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_indexer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="30">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_indexing/finalize_indexing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="405">
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -664,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_indexing/index_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="329">
+          <caret line="35" column="96" lean-forward="false" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -674,46 +782,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_indexing/index_names.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="85" lean-forward="false" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexes/element_cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexes/element_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/toy-125/toy.graph">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="123" column="22" lean-forward="true" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/preprocess_graph.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>

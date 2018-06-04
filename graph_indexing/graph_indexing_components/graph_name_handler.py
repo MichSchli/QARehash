@@ -15,6 +15,9 @@ class GraphNameHandler:
             entity = triple[0]
             name = triple[2]
 
+            if name.endswith("@en"):
+                name = name[:-3]
+
             self.name_index.add(entity, name)
         elif self.should_index:
             pass

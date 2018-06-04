@@ -14,7 +14,7 @@ parser.add_argument('--name_dictionary', type=str, help='The location of the nam
 args = parser.parse_args()
 
 name_index = ElementCache(args.name_dictionary)
-graph_processor = GraphNameHandler(None, "name", name_index, index=True)
+graph_processor = GraphNameHandler(None, "http://rdf.freebase.com/ns/type.object.name", name_index, index=True)
 
 graph_iterator = GraphFileIterator(args.graph)
 

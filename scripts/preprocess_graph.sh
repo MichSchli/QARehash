@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-GRAPH_FILE='data/toy-125/toy.graph'
-INDEX_DIR='data/toy-125/cache'
+GRAPH_FILE='datastore/siva-freebase/freebase.triples.combined.txt'
+INDEX_DIR='datastore/siva-freebase/cache'
 
 NAME_CACHE=$INDEX_DIR'/name_cache'
 TYPE_CACHE=$INDEX_DIR'/type_cache'

@@ -30,12 +30,12 @@ graph_processor = GraphRelationCounter(graph_processor)
 
 vertex_index = ElementIndex(args.vertex_dictionary)
 graph_processor = GraphVertexIndexer(graph_processor, vertex_index)
-graph_processor = GraphRelationFilter(graph_processor)
 
 name_cache = ElementCache(args.name_dictionary)
 type_cache = ElementCache(args.type_dictionary)
+graph_processor = GraphNameHandler(graph_processor, "http://rdf.freebase.com/ns/type.object.name", name_cache)
 graph_processor = GraphTypeHandler(graph_processor, type_cache, name_cache)
-graph_processor = GraphNameHandler(graph_processor, "name", name_cache)
+graph_processor = GraphRelationFilter(graph_processor)
 
 graph_iterator = GraphFileIterator(args.graph)
 
