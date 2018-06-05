@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-GRAPH_FILE='/home/michael/Projects/QuestionAnswering/GCNQA3/data/toy-125/toy.graph'
-PREPROCESSOR_CONFIGURATION='/home/michael/Projects/QuestionAnswering/GCNQA3/configurations/preprocessor/toy_local.cfg'
+GRAPH_FILE=$1
+PREPROCESSOR_CONFIGURATION=$2
 
 PYTHON='python3'
 
