@@ -1,5 +1,6 @@
 import argparse
 
+from auxilliaries.settings_reader import SettingsReader
 from graph_indexing.graph_indexing_components.graph_name_handler import GraphNameHandler
 from graph_indexing.graph_iterators.graph_file_iterator import GraphFileIterator
 from indexes.element_cache import ElementCache
@@ -10,11 +11,18 @@ Future-proof graph indexing system
 
 parser = argparse.ArgumentParser(description='Indexes the names in a graph')
 parser.add_argument('--graph', type=str, help='The location of the graph')
-parser.add_argument('--name_dictionary', type=str, help='The location of the name dictionary')
+parser.add_argument('--preprocessor_settings', type=str, help='Settings file for preprocessor')
 args = parser.parse_args()
 
-name_index = ElementCache(args.name_dictionary)
-graph_processor = GraphNameHandler(None, "http://rdf.freebase.com/ns/type.object.name", name_index, index=True)
+settings_reader = SettingsReader()
+settings = settings_reader.read(args.preprocessor_settings)
+
+name_cache = settings["cache_locations"]["name_cache"]
+name_relation = settings["other"]["name_relation"]
+discarded_name_file = settings["filters"]["names"]
+
+name_index = ElementCache(name_cache)
+graph_processor = GraphNameHandler(None, name_relation, name_index, discarded_name_file, index=True)
 
 graph_iterator = GraphFileIterator(args.graph)
 

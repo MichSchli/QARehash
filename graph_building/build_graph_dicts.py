@@ -1,5 +1,6 @@
 import argparse
 
+from auxilliaries.settings_reader import SettingsReader
 from graph_building.graphlet import Graphlet
 from graph_indexing.graph_indexing_components.graph_name_handler import GraphNameHandler
 from graph_indexing.graph_indexing_components.graph_printer import GraphPrinter
@@ -18,15 +19,20 @@ Future-proof graph indexing system
 
 parser = argparse.ArgumentParser(description='Indexes a graph')
 parser.add_argument('--graph', type=str, help='The location of the graph')
-parser.add_argument('--type_dictionary', type=str, help='The location of the name dictionary')
-parser.add_argument('--graph_dictionary', type=str, help='The location of the name dictionary')
+parser.add_argument('--preprocessor_settings', type=str, help='Settings file for preprocessor')
 args = parser.parse_args()
 
-graph_iterator = GraphFileIterator(args.graph)
-type_cache = ElementCache(args.type_dictionary)
+settings_reader = SettingsReader()
+settings = settings_reader.read(args.preprocessor_settings)
 
-vertex_graphs = ElementCache(args.graph_dictionary + ".entities")
-event_graphs = ElementCache(args.graph_dictionary + ".events")
+graph_cache = settings["cache_locations"]["graph_cache"]
+vertex_type_cache = settings["cache_locations"]["vertex_type_cache"]
+
+graph_iterator = GraphFileIterator(args.graph)
+type_cache = ElementCache(vertex_type_cache)
+
+vertex_graphs = ElementCache(graph_cache + ".entities")
+event_graphs = ElementCache(graph_cache + ".events")
 
 for graph in graph_iterator.iterate():
     graph = [int(graph[0]), int(graph[1]), int(graph[2])]

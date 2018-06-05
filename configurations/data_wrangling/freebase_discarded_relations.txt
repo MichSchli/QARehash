@@ -1,0 +1,10 @@
+http://rdf.freebase.common.image.rights_holder_text_attribution
+http://rdf.freebase.common.com/ns/common.topic.alias
+http://rdf.freebase.common.com/ns/location.geocode.datum
+http://rdf.freebase.common.com/ns/book.book_edition.ISBN
+http://rdf.freebase.common.com/ns/book.book_edition.LCCN
+http://rdf.freebase.com/ns/base.skosbase.skos_concept.pref_label
+http://rdf.freebase.com/ns/common.webpage.description
+http://rdf.freebase.com/ns/base.wordnet.synset.gloss
+http://rdf.freebase.com/ns/type.object.type
+http://rdf.freebase.com/ns/type.object.permission

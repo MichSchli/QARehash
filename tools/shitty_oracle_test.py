@@ -40,7 +40,6 @@ for line in open(inf):
         count += 1
         parts = line.split("\t")
         entity_index = vertex_index.to_index(parts[0])
-
         graphlet = entity_cache.get(entity_index)
 
         left_relation = parts[1]

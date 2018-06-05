@@ -1,13 +1,6 @@
 import argparse
 
-from graph_indexing.graph_indexing_components.graph_name_handler import GraphNameHandler
-from graph_indexing.graph_indexing_components.graph_printer import GraphPrinter
-from graph_indexing.graph_indexing_components.graph_relation_counter import GraphRelationCounter
-from graph_indexing.graph_indexing_components.graph_relation_filter import GraphRelationFilter
-from graph_indexing.graph_indexing_components.graph_relation_indexer import GraphRelationIndexer
-from graph_indexing.graph_indexing_components.graph_type_handler import GraphTypeHandler
-from graph_indexing.graph_indexing_components.graph_vertex_indexer import GraphVertexIndexer
-from graph_indexing.graph_iterators.graph_file_iterator import GraphFileIterator
+from auxilliaries.settings_reader import SettingsReader
 from indexes.element_cache import ElementCache
 from indexes.element_index import ElementIndex
 
@@ -16,14 +9,19 @@ Future-proof graph indexing system
 """
 
 parser = argparse.ArgumentParser(description='Indexes a graph')
-parser.add_argument('--name_dictionary', type=str, help='The location of the name dictionary')
-parser.add_argument('--type_dictionary', type=str, help='The location of the name dictionary')
-parser.add_argument('--vertex_dictionary', type=str, help='The location of the name dictionary')
+parser.add_argument('--preprocessor_settings', type=str, help='Settings file for preprocessor')
 args = parser.parse_args()
 
-vertex_index = ElementIndex(args.vertex_dictionary)
-name_cache = ElementCache(args.name_dictionary)
-type_cache = ElementCache(args.type_dictionary)
+settings_reader = SettingsReader()
+settings = settings_reader.read(args.preprocessor_settings)
+
+name_cache = settings["cache_locations"]["name_cache"]
+vertex_index_location = settings["cache_locations"]["vertex_index"]
+vertex_type_cache = settings["cache_locations"]["vertex_type_cache"]
+
+vertex_index = ElementIndex(vertex_index_location)
+name_cache = ElementCache(name_cache)
+type_cache = ElementCache(vertex_type_cache)
 
 name_cache.index_keys(vertex_index)
 type_cache.index_keys(vertex_index)
