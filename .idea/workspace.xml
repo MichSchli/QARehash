@@ -35,12 +35,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="siva_freebase.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="freebase_discarded_names.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_names.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="siva_freebase.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_names.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/index_names.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="34" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finalize_indexing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_indexing/finalize_indexing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,16 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="freebase_discarded_names.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_names.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="graph_relation_filter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,32 +109,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph_relation_counter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph_relation_indexer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_indexer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_graph.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_graph.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph_indexing/index_graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="524">
-              <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding />
+              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,20 +165,20 @@
         <option value="$PROJECT_DIR$/data/toy-125/shitty_oracle.txt" />
         <option value="$PROJECT_DIR$/tools/make_shitty_siva_oracle_file.py" />
         <option value="$PROJECT_DIR$/configurations/preprocessor/toy_local.cfg.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/finalize_indexing.py" />
         <option value="$PROJECT_DIR$/tools/shitty_oracle_test.py" />
         <option value="$PROJECT_DIR$/graph_building/build_graph_dicts.py" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_type_handler.py" />
         <option value="$PROJECT_DIR$/configurations/preprocessor/toy_local.cfg" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_filter.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/index_names.py" />
         <option value="$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_names.txt" />
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py" />
-        <option value="$PROJECT_DIR$/graph_indexing/index_graph.py" />
         <option value="$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_relations.txt" />
         <option value="$PROJECT_DIR$/scripts/preprocess_graph.sh" />
         <option value="$PROJECT_DIR$/scripts/make_graph_cache.sh" />
         <option value="$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg" />
+        <option value="$PROJECT_DIR$/graph_indexing/finalize_indexing.py" />
+        <option value="$PROJECT_DIR$/graph_indexing/index_names.py" />
+        <option value="$PROJECT_DIR$/graph_indexing/index_graph.py" />
       </list>
     </option>
   </component>
@@ -895,16 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/finalize_indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/toy-125/toy.graph">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -947,22 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/index_names.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="89" lean-forward="false" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_relation_counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -995,22 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_indexing/index_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_relations.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/preprocess_graph.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1032,6 +996,52 @@
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_relations.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_indexing/finalize_indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_indexing/index_names.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_indexing/index_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

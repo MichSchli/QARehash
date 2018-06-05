@@ -4,6 +4,7 @@ from auxilliaries.settings_reader import SettingsReader
 from graph_indexing.graph_indexing_components.graph_name_handler import GraphNameHandler
 from graph_indexing.graph_iterators.graph_file_iterator import GraphFileIterator
 from indexes.element_cache import ElementCache
+import sys
 
 """
 Future-proof graph indexing system
@@ -28,7 +29,10 @@ graph_iterator = GraphFileIterator(args.graph)
 
 non_events = []
 
-for graph in graph_iterator.iterate():
+print("Indexing names", file=sys.stderr)
+for i,graph in enumerate(graph_iterator.iterate()):
+    if i % 10000000 == 0:
+        print(str(i), file=sys.stderr)
     processed = graph_processor.process(graph)
     if processed:
         print("\t".join(processed))
