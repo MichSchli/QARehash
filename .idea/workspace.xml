@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="siva_freebase.cfg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="siva_freebase.cfg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="make_graph_cache.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make_graph_cache.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/make_graph_cache.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -170,9 +170,9 @@
         <option value="$PROJECT_DIR$/graph_indexing/graph_indexing_components/graph_name_handler.py" />
         <option value="$PROJECT_DIR$/graph_indexing/index_graph.py" />
         <option value="$PROJECT_DIR$/configurations/data_wrangling/freebase_discarded_relations.txt" />
-        <option value="$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg" />
         <option value="$PROJECT_DIR$/scripts/preprocess_graph.sh" />
         <option value="$PROJECT_DIR$/scripts/make_graph_cache.sh" />
+        <option value="$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg" />
       </list>
     </option>
   </component>
@@ -1011,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/preprocess_graph.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1031,6 +1023,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurations/preprocessor/siva_freebase.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
