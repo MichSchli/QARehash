@@ -1,6 +1,7 @@
 import json
 
 file = '/home/michael/Projects/QuestionAnswering/GCNQA3/data/webquestions/en-bilty-bist-webquestions.test.deplambda.json'
+outfile = open('/home/michael/Projects/QuestionAnswering/GCNQA3/data/webquestions/shitty_oracle_test.txt', 'w')
 
 f1s = 0.0
 count = 0
@@ -32,8 +33,14 @@ with open(file, "r") as data_file:
 
         greedy_relation = relations[0]
 
-        print(greedy_entity)
-        print((list(seen.values()), relations))
-        exit()
+        gold = json_line["targetValue"][7:-2]
+        gold = gold.split(") (")
+        gold = [g[12:].replace("\"", "") for g in gold]
 
-print(f1s/count)
+        for entity in seen.values():
+            entity = "http://rdf.freebase.com/ns/" + entity["entity"]
+            left_relation = relations[0]["relationLeft"]
+            right_relation = relations[0]["relationRight"]
+            print("\t".join([entity, left_relation, right_relation, "||".join(gold)]), file=outfile)
+
+        print("", file=outfile)

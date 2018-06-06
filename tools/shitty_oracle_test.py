@@ -2,8 +2,9 @@ from indexes.element_cache import ElementCache
 from indexes.element_index import ElementIndex
 import numpy as np
 
-inf = '/home/michael/Projects/QuestionAnswering/GCNQA3/data/toy-125/shitty_oracle.txt'
+inf = '/home/michael/Projects/QuestionAnswering/GCNQA3/data/webquestions/shitty_oracle_test.txt'
 
+name_cache = ElementCache("/home/michael/Projects/QuestionAnswering/GCNQA3/data/toy-125/cache/name_cache")
 entity_cache = ElementCache("/home/michael/Projects/QuestionAnswering/GCNQA3/data/toy-125/cache/graph_cache.entities")
 event_cache = ElementCache("/home/michael/Projects/QuestionAnswering/GCNQA3/data/toy-125/cache/graph_cache.events")
 vertex_index = ElementIndex("/home/michael/Projects/QuestionAnswering/GCNQA3/data/toy-125/cache/vertex_index")
@@ -34,13 +35,16 @@ def f1(predicted_labels, true_labels):
 total_f1 = 0
 count = 0
 
+temporary_f1 = 0
+
 for line in open(inf):
     line = line.strip()
     if line:
-        count += 1
         parts = line.split("\t")
         entity_index = vertex_index.to_index(parts[0])
         graphlet = entity_cache.get(entity_index)
+        if graphlet is None:
+            continue
 
         left_relation = parts[1]
         right_relation = parts[2]
@@ -59,6 +63,9 @@ for line in open(inf):
                 idx = relation_index.to_index(left_relation)
                 events = graphlet.events[idx]
 
+            if len(events) == 0:
+                continue
+
             event_graphlets = [event_cache.get(event) for event in events]
             target = []
 
@@ -72,7 +79,15 @@ for line in open(inf):
 
                 target.extend(new_targets)
 
+        if len(target) == 0:
+            continue
+
         target_texts = [vertex_index.from_index(t) for t in target]
+        for i in range(len(target_texts)):
+            name = name_cache.get(target_texts[i])
+            if name is not None:
+                target_texts[i] = name
+
         gold = parts[-1].split(",")
 
         print(target_texts)
@@ -81,6 +96,11 @@ for line in open(inf):
         f1_h = f1(target_texts, gold)
         print(f1_h)
 
-        total_f1 += f1_h
+        if f1_h > temporary_f1:
+            temporary_f1 = f1_h
+    else:
+        count += 1
+        total_f1 += temporary_f1
+        temporary_f1 = 0
 
 print(total_f1/count)
