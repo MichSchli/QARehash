@@ -16,3 +16,6 @@ class Question:
 
     def get_pos_indexes(self):
         return self.pos_indexes
+
+    def __str__(self):
+        return " ".join(self.words)

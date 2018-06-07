@@ -15,5 +15,5 @@ class QuestionReaderFactory:
                        "valid": experiment_configuration["question_dataset"]["valid"],
                        "test": experiment_configuration["question_dataset"]["test"]}
 
-        question_reader = QuestionReader()
+        question_reader = QuestionReader(dataset_map)
         return question_reader

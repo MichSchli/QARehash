@@ -11,7 +11,7 @@ class Example:
     def __str__(self):
         string = "Example: { "
 
-        for key, value in self.items:
+        for key, value in self.items.items():
             string += key + ": " + str(value)
             string += "\n"
 

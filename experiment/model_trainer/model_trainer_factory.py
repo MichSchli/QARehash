@@ -11,9 +11,9 @@ class ModelTrainerFactory(AbstractFactory):
     def get(self, configuration):
         model_trainer = ModelTrainer()
 
-        model_trainer.iterations = configuration["training"]["iterations"]
+        model_trainer.iterations = int(configuration["training"]["iterations"])
         model_trainer.train_example_reader = self.example_reader_factory.get(configuration)
-        model_trainer.periodic_tests = configuration["training"]["periodic_tests"] if "periodic_tests" in configuration["training"] else None
+        model_trainer.periodic_tests = int(configuration["training"]["periodic_tests"]) if "periodic_tests" in configuration["training"] else None
 
         if model_trainer.periodic_tests is not None:
             model_trainer.validation_example_reader = self.evaluator_factory.get(configuration)

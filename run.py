@@ -1,3 +1,4 @@
+from auxilliaries.settings_reader import SettingsReader
 from example_readers.example_reader_factory import ExampleReaderFactory
 from experiment.experiment_factory import ExperimentFactory
 from experiment.interfaces.abstract_example_reader import AbstractExampleReader
@@ -18,8 +19,8 @@ class DummyModelFactory:
         return DummyModel()
 
 model_configuration = "/home/michael/Projects/QuestionAnswering/GCNQA3/configurations/models/webquestions_relation_prediction.cfg"
-
-configuration = {"training": {"iterations": 5}}
+settings_reader = SettingsReader()
+configuration = settings_reader.read(model_configuration)
 
 experiment_factory = ExperimentFactory(DummyModelFactory(), ExampleReaderFactory(), AbstractFactory())
 experiment = experiment_factory.get(configuration)

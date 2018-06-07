@@ -22,7 +22,27 @@ class QuestionReader:
 
         return self.build(self.datasets[dataset][index])
 
+    def get_dataset_size(self, dataset):
+        if dataset not in self.datasets:
+            self.load_data(dataset)
+
+        return len(self.datasets[dataset])
+
     def load_data(self, dataset):
         f = open(self.dataset_map[dataset], 'r')
+        sentences = [[]]
+        part = 0
         for line in f:
-            print(line)
+            line = line.strip()
+            if line and part == 0:
+                sentences[-1].append(line.split("\t"))
+            elif not line and part == 2:
+                part = 0
+                sentences.append([])
+            elif not line:
+                part += 1
+
+        if sentences[-1] == []:
+            sentences = sentences[:-1]
+
+        self.datasets[dataset] = sentences
